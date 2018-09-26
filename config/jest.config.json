@@ -1,0 +1,9 @@
+{
+  "setupFiles": ["<rootDir>/tests/setup.js"],
+  "testRegex": "(\\.|/)(test)\\.jsx?$",
+  "rootDir": "..",
+  "roots": ["<rootDir>/src", "<rootDir>/tests"],
+  "moduleFileExtensions": ["jsx", "js", "json"],
+  "collectCoverageFrom": ["src/**/*.{js, jsx}"],
+  "coverageDirectory": "coverage"
+}

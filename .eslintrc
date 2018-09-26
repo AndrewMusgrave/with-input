@@ -1,0 +1,15 @@
+{
+  "plugins": ["jest"],
+  "extends": [
+    "plugin:jest/recommended",
+    "plugin:shopify/esnext",
+    "plugin:shopify/node",
+    "plugin:shopify/polaris",
+    "plugin:shopify/javascript",
+    "plugin:shopify/javascript-react",
+    "plugin:shopify/javascript-prettier"
+  ],
+  "env": {
+    "jest": true
+  }
+}
